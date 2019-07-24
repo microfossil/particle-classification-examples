@@ -14,4 +14,4 @@ Google Colab is a free online service for running python scripts and training ne
 
 We have created a tutorial in the form of a Jupyter notebook for Google Colab that takes you step-by-step through training a network wiht MISO. Running the notebook and training is done online on the Google Colab website, and thus you do not need your own powerful computer.
 
-[Click here to open the notebook in Google Colab](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_tutorial.ipynb)
+If you don't have a Google account already, please sign up, then [click here to open the notebook in Google Colab](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_tutorial.ipynb)
