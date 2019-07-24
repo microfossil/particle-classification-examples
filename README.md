@@ -12,6 +12,6 @@ This repository contains some Jupyter notebooks and python scripts to demonstrat
 
 Google Colab is a free online service for running python scripts and training neural networks using the Tensorflow library.
 
-We have created a tutorial in the form of a Jupyter notebook to describe how to start training a network with MISO.
+We have created a tutorial in the form of a Jupyter notebook for Google Colab that takes you step-by-step through training a network wiht MISO. Running the notebook and training is done online on the Google Colab website, and thus you do not need your own powerful computer.
 
 [Click here to open the notebook in Google Colab](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_tutorial.ipynb)
