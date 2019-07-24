@@ -1,4 +1,4 @@
-# Image Classification using the MISO library
+# Image classification using the MISO library
 
 The MISO library was created to provide a simplified interface to help create, train and save convolutional neural networks (CNNs) for image classification, in particular for particle images such as foraminifera.
 
