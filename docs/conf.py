@@ -22,8 +22,9 @@ copyright = '2019, Ross Marchant'
 author = 'Ross Marchant'
 
 # The full version, including alpha/beta/rc tags
-release = '2.0.4-beta'
+release = '2.0.5-beta'
 
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
