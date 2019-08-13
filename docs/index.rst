@@ -49,15 +49,6 @@ A computer with a high-powered graphics card is not necessary for training the C
    tutorial/dataset_creation
    tutorial/training
    tutorial/inference
-   
-.. toctree::
-   :maxdepth: 2
-   :caption: How to use Particle Trieur:
-
-   tutorial/getting_started
-   tutorial/dataset_creation
-   tutorial/training
-   tutorial/inference
 
 .. Indices and tables
 .. ==================
