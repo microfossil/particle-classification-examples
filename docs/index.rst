@@ -48,6 +48,7 @@ A computer with a high-powered graphics card is not necessary for training the C
    tutorial/getting_started
    tutorial/dataset_creation
    tutorial/training
+   tutorial/training_2
    tutorial/inference
 
 .. Indices and tables
