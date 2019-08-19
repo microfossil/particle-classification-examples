@@ -157,16 +157,12 @@ For example, the folder structure of a dataset three classes, A, B and C, might 
             ...
          -> image23.png
 
-Labeling with ParticleTrieur
-````````````````````````````
-See XXXX for a more in-depth help on how to use ParticleTrieur
+ParticleTrieur
+``````````````
+
+ParticleTrieur provides a graphical user interface for training. See here for details (under construction)
 
 
 
 
 
-
-Depending on the type of image, this may require multiple CNNs trained for specific sites or locations.
-
-
-Note about invaders and particles not in trainingset

@@ -1,5 +1,5 @@
-Running Training
-================
+Training Implementation
+=======================
 
 Normal training of a CNN is very computationally intensive and requires a high-powered NVIDA graphics card (GPU) for it to complete in a reasonable time. For example, a large 20000 image dataset may take over 2 hours to train on the ResNet50 CNN on a top-of-the-line consumer NVIDIA 2080 Ti GPU. On a typical laptop, training could be 50 times slower.
 
