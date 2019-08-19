@@ -8,10 +8,16 @@ The trained networks are saved in a frozen model format, allowing them to be use
 
 This repository contains some Jupyter notebooks and python scripts to demonstrate training using the MISO library. They can be used as a base for writing your own scripts.
 
-## Tutorial
+## Documentation
 
-Google Colab is a free online service for running python scripts and training neural networks using the Tensorflow library.
+In-depth documentation covering installing software, creating a training set, configuring a network, and performing training is described [here.](https://particle-classification.readthedocs.io/en/latest/)
 
-We have created a tutorial in the form of a Jupyter notebook for Google Colab that takes you step-by-step through training a network wiht MISO. Running the notebook and training is done online on the Google Colab website, and thus you do not need your own powerful computer.
+## Google Colab
+
+We recommend starting by reading the documentation, but if you want to jump straight in, please follow out tutorial in Google Colab.
+
+Google Colab is a free online service for running python scripts and training neural networks using the Tensorflow library. We have created a tutorial Jupyter notebook for Google Colab that takes you step-by-step through training a network wiht MISO. Running the notebook and training is done online, and therefore you do not need your own GPU.
 
 If you don't have a Google account already, please sign up, then [click here to open the notebook in Google Colab](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_tutorial.ipynb)
+
+For experienced users, there is a slimmed down notebook without the tutorial clutter [here.](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_quick.ipynb)
