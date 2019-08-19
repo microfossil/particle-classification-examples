@@ -62,6 +62,39 @@ To update the MISO library in the future, perform steps 2, 4 and 6.
 Creating a script
 `````````````````
 
-An example training script can be found here.
+There are many different python development environments that can be used to edit the script files, e.g. PyCharm, Visual Studio Code, IDLE, with varying learning curves. Since Anaconda is already install, we shall use the built-in Jupyter notebook server. This has a similar interface to that used on Google Colab.
+
+1. Open *Anaconda Navigator*
+
+2. Click the *Home* tab
+
+3. Change *Applications on* from *base* to *miso*
+
+4. If not installed, click *Install* under *Jupyter notebook*
+
+5. Click, *Launch* under *Jupyter notebook*. A page will open in your web browser.
+
+6. Navigate to the directory where you wish to make the script.
+
+7. Click *New* in the top-right, and then *Python 3* under *Notebook*. A new tab will open with the notebook.
+
+8. Copy the example script from `here. <https://github.com/microfossil/particle-classification-examples/blob/master/image_classification_example.py>`_ and paste it in the notebook. (Click the *Raw* button on the webpage to get a plain text file for copying).
+
+9. Modify the script values for your training set. (Follow the tutorial on Google Colab (link in previous section) to learn what each parameter does).
+
+10. Click the cell with the code to select it (indicated by a green border).
+
+11. Click *Run* to start training.
+
+When finished, be sure to click *Log out* before closing the tab.
+
+ParticleTrieur
+--------------
+
+ParticleTrieur provides a graphical interface to make training simple.
+
+Please follow the instructions here: (under construction).
+
+
 
 
