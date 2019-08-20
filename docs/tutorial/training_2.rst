@@ -35,25 +35,25 @@ Python, Tensorflow and the MISO library must be installed. We recommend using th
 
 1. Install Anaconda from `here <https://www.anaconda.com/distribution/>`_. Use the default installation options, making sure that *Install for: Just me* is selected.
 
-2. Open the Anaconda command prompt. 
+2. Open the Anaconda command prompt (Windows) or terminal (MacOS). 
 
 3. Create a new python environment called *miso*:
 
-   ``conda create -n miso python=3.7``
+``conda create -n miso python=3.7``
 
 4. Activate the *miso* environment:
 
-   ``conda activate miso``
+``conda activate miso``
 
 5. Install ``tensorflow-gpu`` if you have a supported NVIDIA GPU, otherwise install ``tensorflow``:
 
-   With GPU: ``conda install tensorflow-gpu=1.14``
+With GPU: ``conda install tensorflow-gpu=1.14``
 
-   Without GPU: ``conda install tensorflow=1.14``
+Without GPU: ``conda install tensorflow=1.14``
 
 6. Install the MISO library:
 
-   ``pip install -U git+https://github.com/microfossil/particle-classification``
+``pip install -U git+https://github.com/microfossil/particle-classification``
 
 Setup is complete!
 
