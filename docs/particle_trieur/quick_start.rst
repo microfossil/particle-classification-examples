@@ -17,6 +17,7 @@ Start up
 1. Launch ParticleTrieur and select *New Project* in the startup window.
 
 .. image:: ../images/software/startup.png
+    :width: 400px
 
 2. After a few seconds to load, the main window will show.
 
@@ -127,3 +128,35 @@ The scores are shown as red bars across the top of the label buttons. The length
 .. Note::
 
     The k-NN prediction only considers images that have already been labeled. Therefore, it will not be accurate until enough images from each class have been labeled. 
+
+Export labeled images
+---------------------
+
+Once enough images have been labeled to create the training set, the images need to be exported for training.
+
+.. Tip:: Select *Statistics -> Counts by -> Label* from the menu bar to see the counts for each label.
+
+1. Click *Export* in the toolbar. The export dialog will pop up.
+
+.. image:: ../images/software/export.png
+
+2. Images are often in TIFF format which has a very large file size. Change *Convert to* from *No conversion* to *JPEG (compressed, small file size)* to export the images in JPEG format to reduce their size. This is especially useful the images need to be uploaded for cloud training.
+
+3. Click *OK* and select a folder to save the exported images in.
+
+The images will be saved in a root folder called images_YYYYMMDD_hhmmss where YYYYMMDD-hhmmss is the current date and time. Inside the images folder will be a sub-folder for each label, containing the corresponding images.
+
+Train network
+-------------
+
+Before starting for the first time, please read the section :doc:`../tutorial/training`.
+
+If you wish to train in the cloud using Google Colab, please follw the :doc:`../tutorial/training_2#google-colab` section.
+
+This section deals with training locally using ParticleTrieur.
+
+1. If the MISO particle classification library is not already install, follow the instructions in the :doc:`../tutorial/training_2#setup` section.
+
+2. Click *Training* in the toolbar. The training configuration dialog will pop up.
+
+3. TBC
