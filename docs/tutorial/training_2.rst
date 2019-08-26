@@ -11,6 +11,7 @@ We recommend the Google Colab method for those without a GPU. Google Colab provi
 
 .. note:: Please follow the tutorial on Google Colab method the first time.
 
+.. _google-colab:
 Google Colab
 ------------
 

@@ -151,12 +151,10 @@ Train network
 
 Before starting for the first time, please read the section :doc:`../tutorial/training`.
 
-If you wish to train in the cloud using Google Colab, please follw the :doc:`../tutorial/training_2#google-colab` section.
+If you wish to train in the cloud using Google Colab, please follow the relevant section in the :doc:`../tutorial/training_2` section.
 
 This section deals with training locally using ParticleTrieur.
 
-1. If the MISO particle classification library is not already install, follow the instructions in the :doc:`../tutorial/training_2#setup` section.
+1. If the MISO particle classification library is not already install, follow the setup instructions in the :doc:`../tutorial/training_2` section.
 
 2. Click *Training* in the toolbar. The training configuration dialog will pop up.
-
-3. TBC
