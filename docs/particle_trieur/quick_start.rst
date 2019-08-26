@@ -43,7 +43,7 @@ Add images
 
 4. The *Edit Metadata* dialog will pop up.
 
-.. image:: ../images/software/add_images.png
+.. image:: ../images/software/edit_metadata.png
 
 5. Enter any metadata associated with the images (leave blank if unknown):
 
@@ -94,6 +94,7 @@ Add a label for each of the classes you wish to identify:
 * Description: Further details of the class (optional).
 
 .. image:: ../images/software/add_label.png
+    :width: 400px
 
 3. Click *OK*.
 
@@ -118,9 +119,10 @@ The in-built *k-NN prediction* system will automatically predict which label bel
 
 It does this by looking at the top N (usually 12) most-similar images *that have already been labeled* to the selected image, and assigning a score to each label based on the number of images in that label in the top N.
 
-The scores are shown as red bars across the top of the label buttons, and the best prediction is indicated by a symbol.
+The scores are shown as red bars across the top of the label buttons. The length of the red bar (compared to the width of the button) indicates the score. The best prediction (the highest score) is indicated by a grid symbol.
 
 .. image:: ../images/software/knn_score.png
+    :width: 500px
 
 .. Note::
 
