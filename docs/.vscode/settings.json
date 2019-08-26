@@ -1,4 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\rossm\\Anaconda3\\envs\\cnn\\python.exe",
+    "python.pythonPath": "/Users/chaos/anaconda3/bin/python",
     "restructuredtext.confPath": "${workspaceFolder}"
 }

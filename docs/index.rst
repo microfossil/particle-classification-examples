@@ -6,7 +6,9 @@
 Particle Classification
 ===================================================
 
-Welcome to the help and tutorial documentation for the ForamTrier program and particle classification Tensorflow library created by Ross Marchant.
+Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library created by Ross Marchant.
+
+`Download ParticleTrieur 2.0.8-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4McJvELPIdKp6aogA?e=9LoF76>`_
 
 Overview
 --------
@@ -42,7 +44,7 @@ A computer with a high-powered graphics card is not necessary for training the C
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Tutorial:
 
    tutorial/getting_started
@@ -50,6 +52,13 @@ A computer with a high-powered graphics card is not necessary for training the C
    tutorial/training
    tutorial/training_2
    tutorial/inference
+
+.. toctree::
+   :maxdepth: 1
+   :caption: ParticleTrieur:
+
+   particle_trieur/overview
+   particle_trieur/quick_start
 
 .. Indices and tables
 .. ==================
