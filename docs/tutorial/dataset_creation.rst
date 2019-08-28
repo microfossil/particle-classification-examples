@@ -1,4 +1,3 @@
-.. _dataset-creation:
 Creating a dataset
 ==================
 
