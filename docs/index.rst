@@ -4,11 +4,13 @@
    contain the root `toctree` directive.
 
 Particle Classification
-===================================================
+=======================
 
 Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library created by Ross Marchant.
 
 `Download ParticleTrieur 2.0.11-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4MtODbxPojMU4WryQ?e=wdSlc4>`_
+
+`Download ParticleTrieur 2.0.11-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4Mu5wULOc7NNufdKQ?e=3R4yii>`_
 
 Overview
 --------
