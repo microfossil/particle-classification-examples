@@ -103,7 +103,7 @@ Add a label for each of the classes you wish to identify:
 
 .. Note::
 
-    To edit or delete a label, right-click the label button and click *Edit...* or *Delete...* in the pop-up dialog.
+    To edit or delete a label, right-click the label button and click :guilabel:`Edit...` or :guilabel:`Delete...` in the pop-up dialog.
 
 Label images
 ------------
@@ -169,6 +169,8 @@ This section deals with training locally using ParticleTrieur.
 
 7. Click :guilabel:`Launch Training` and the training progress view will pop-up:
 
+.. image:: ../images/software/training_view.png
+
 The training progress view shows the status and graph of training and the console output from the MISO python script. If there is an error, please check the console tab, as this will contain the full python error trace.
 
 8. Wait until training is complete. The *Generating Model* step may take a long time on a computer without a high-powered GPU.
@@ -188,9 +190,13 @@ The trainined network is now ready be used for classification!
 
 1. In the :guilabel:`Classification` tab, under ``Deep CNN``, click :guilabel:`Select...`. The classification network dialog will pop-up:
 
+.. image:: ../images/software/load_network.png
+
 2. Click :guilabel:`Load from XML...` and select the ``network_info.xml`` file from the ``model`` folder for the network that was just trained.
 
 3. The network information will be shown in the window. Click :guilabel:`OK` to use the network. Any labels that are used by the network will be added to the project.
+
+.. image:: ../images/software/load_network_complete.png
 
 Once the CNN is activated, click on an image in the list will automatically predict the image label using the network, as is done with the k-NN prediction system. The CNN prediction score appears as a blue bar at the bottom of the label button and the best prediction is indicated by a CPU chip symbol.
 
