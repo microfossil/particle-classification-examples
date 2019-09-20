@@ -8,9 +8,9 @@ Particle Classification
 
 Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library created by Ross Marchant.
 
-`Download ParticleTrieur 2.0.15-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4Rn9oKNEZwueSPpRw?e=2SLXFS>`_
+`Download ParticleTrieur 2.0.16-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4UWloNECbWrQXR0fA?e=GamlzG>`_
 
-`Download ParticleTrieur 2.0.15-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4RmfG2Sv2LFZxzn8w?e=K3ogfc>`_
+`Download ParticleTrieur 2.0.16-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4UXZnJ8g4uHapSXYA?e=om2W9B>`_
 
 Overview
 --------
