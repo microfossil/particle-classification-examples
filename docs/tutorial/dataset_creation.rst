@@ -10,7 +10,7 @@ This leads to a few important observations:
 
 .. tip:: One cannot expect the CNN to accurately classify an image whose distinguishing features are *not in the training set*. 
 
-For example, the following images show the dorsal (left) and umbilical (right) views of a *Duterii* foraminifera microfossil particle. If only the dorsal view is in the training set, the CNN may have difficultly classifying images of the umbilical view, as the image contains a different set of features.
+For example, the following images show the dorsal (left) and umbilical (right) views of a *N. dutertrei* foraminifera microfossil particle. If only the dorsal view is in the training set, the CNN may have difficultly classifying images of the umbilical view, as the image contains a different set of features.
 
 .. image:: ../images/particles/dut_dorsl.png
    :width: 100px
