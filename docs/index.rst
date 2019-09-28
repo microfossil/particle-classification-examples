@@ -8,9 +8,17 @@ Particle Classification
 
 Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library created by Ross Marchant.
 
-`Download ParticleTrieur 2.0.16-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4UWloNECbWrQXR0fA?e=GamlzG>`_
+`Download ParticleTrieur 2.0.17-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4UlKZ6a-R60-4Z0xw?e=tq0Bmc>`_
 
-`Download ParticleTrieur 2.0.16-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4UXZnJ8g4uHapSXYA?e=om2W9B>`_
+`Download ParticleTrieur 2.0.17-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4UkfT-qoeMT4wwrFg?e=fJG1hr>`_
+
+.. Note:: What's new in 2.0.17-beta
+
+   - Fixed a bug that gave incorrect classifications for colour images.
+   - Added option to import a random subset of images.
+   - Added new network training options.
+
+
 
 Overview
 --------
