@@ -6,19 +6,32 @@
 Particle Classification
 =======================
 
-Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library created by Ross Marchant.
+Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library.
 
-`Download ParticleTrieur 2.0.17-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4UlKZ6a-R60-4Z0xw?e=tq0Bmc>`_
+**ParticleTrieur 2.0.18-beta**
 
-`Download ParticleTrieur 2.0.17-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4UkfT-qoeMT4wwrFg?e=fJG1hr>`_
+- `Download ParticleTrieur 2.0.18-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4VJGEGq5UZ3TrZ9CA?e=a3chQ1>`_
 
-.. Note:: What's new in 2.0.17-beta
+- `Download ParticleTrieur-GPU 2.0.18-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4VKrc5whIBFxyRnCg?e=EJ7J4V>`_
 
-   - Fixed a bug that gave incorrect classifications for colour images.
-   - Added option to import a random subset of images.
-   - Added new network training options.
+- `Download ParticleTrieur 2.0.17-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4UlKZ6a-R60-4Z0xw?e=tq0Bmc>`_
 
+.. Note:: What's new in 2.0.18-beta
 
+   - Fixed a bug in the list of networks
+   - Added option to train on all images and direct from project
+
+**MISO 2.0.7:**
+
+`Github repository for MISO 2.0.7 <https://github.com/microfossil/particle-classification>`_ 
+
+Install using ``pip install -U git+https://github.com/microfossil/particle-classification``
+
+.. Note:: What's new in 2.0.7
+
+   - Cyclic / cyclic gain networks for transfer learning.
+
+This software was developed by Ross Marchant, initially as part of project led by Thibault de Garidel-Thoron, and with input from Martin Tetard. Thibault and Martin contributed significantly to the direction and testing of the of the software.
 
 Overview
 --------

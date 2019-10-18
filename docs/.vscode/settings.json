@@ -1,4 +1,5 @@
 {
     "python.pythonPath": "C:\\Users\\rossm\\Anaconda3\\envs\\cnn\\python.exe",
-    "restructuredtext.confPath": "${workspaceFolder}"
+    "restructuredtext.confPath": "${workspaceFolder}",
+    "restructuredtext.linter.disabled": true
 }
