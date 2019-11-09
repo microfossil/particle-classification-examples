@@ -10,18 +10,17 @@ Welcome to the help and tutorial documentation for the ParticleTrieur program an
 
 **ParticleTrieur 2.0.18-beta**
 
-`Download ParticleTrieur 2.0.18-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4VJGEGq5UZ3TrZ9CA?e=a3chQ1>`_
+`Download ParticleTrieur 2.0.19-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4Z_otBACwSPnuzlSg?e=3hXxEL>`_
 
-`Download ParticleTrieur-GPU 2.0.18-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4VKrc5whIBFxyRnCg?e=EJ7J4V>`_. Requires an NVIDIA graphics card and `CUDA Toolkit 10.0 <https://developer.nvidia.com/cuda-10.0-download-archive>`_. 
+`Download ParticleTrieur-GPU 2.0.19-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4cAtVdAefCD7NHxZQ?e=8fdzdR>`_. Requires an NVIDIA graphics card and `CUDA Toolkit 10.0 <https://developer.nvidia.com/cuda-10.0-download-archive>`_. 
 
 *Ensure CUDA 10.0 is installed and not CUDA 10.1. Please restart computer after CUDA installation.*
 
 `Download ParticleTrieur 2.0.17-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4UlKZ6a-R60-4Z0xw?e=tq0Bmc>`_
 
-.. Note:: What's new in 2.0.18-beta
+.. Note:: What's new in 2.0.19-beta
 
-   - Fixed a bug in the list of networks
-   - Added option to train on all images and direct from project
+   - Fixed a out-of-memory error due to memory leak
 
 **MISO 2.0.7:**
 
