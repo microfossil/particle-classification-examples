@@ -8,7 +8,7 @@ Particle Classification
 
 Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library.
 
-**ParticleTrieur 2.0.18-beta**
+**ParticleTrieur 2.0.19-beta**
 
 `Download ParticleTrieur 2.0.19-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4Z_otBACwSPnuzlSg?e=3hXxEL>`_
 
