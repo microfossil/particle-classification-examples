@@ -16,7 +16,7 @@ Welcome to the help and tutorial documentation for the ParticleTrieur program an
 
 *Ensure CUDA 10.0 is installed and not CUDA 10.1. Please restart computer after CUDA installation.*
 
-`Download ParticleTrieur 2.0.17-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4UlKZ6a-R60-4Z0xw?e=tq0Bmc>`_
+`Download ParticleTrieur 2.0.19-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4cBZT1FQASbEbopWw?e=020Aaa>`_
 
 .. Note:: What's new in 2.0.19-beta
 
