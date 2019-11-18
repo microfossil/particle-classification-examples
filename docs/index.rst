@@ -45,6 +45,11 @@ This software was developed by Ross Marchant, initially as part of project led b
 
    Version 1.15 has some `critical bugs <https://github.com/tensorflow/models/issues/7640>`_ on Windows, and Version 2.0 does not have the tf.addons package built for Windows or macOS which is necessary for fast image augmentation.   
 
+Paper
+-----
+
+Download a draft of our paper `here <https://biorxiv.org/cgi/content/short/840926v1>`_
+
 Overview
 --------
 Automated classification of images can improve efficiency in the laboratory, particularly for tedious manual tasks such as counting particle types (e.g. foraminifera morphotypes) from microscope slides.
