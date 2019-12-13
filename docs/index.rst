@@ -38,7 +38,7 @@ Install using ``pip install -U git+https://github.com/microfossil/particle-class
 .. Note:: What's new in 2.0.13
 
    - Also works with tensorflow 1.13.1
-   - Only used tf.keras now
+   - Updated classifiers to tf.keras
 
 This software was developed by Ross Marchant, as part of project led by Thibault de Garidel-Thoron, and with input from Martin Tetard. Thibault and Martin contributed significantly to the direction and testing of the of the software.
 
