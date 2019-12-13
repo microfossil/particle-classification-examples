@@ -13,31 +13,34 @@ Particle Classification
 
 Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library.
 
-**ParticleTrieur 2.0.20-beta**
+**ParticleTrieur 2.0.21-beta**
 
-`Download ParticleTrieur 2.0.20-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4cG3vekkZSlsLo0VQ?e=FUQI7i>`_
+`Download ParticleTrieur 2.0.21-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4hoKtK8_YTr4uuhxA?e=btSBpK>`_
 
 .. `Download ParticleTrieur-GPU 2.0.19-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4cAtVdAefCD7NHxZQ?e=8fdzdR>`_. Requires an NVIDIA graphics card and `CUDA Toolkit 10.0 <https://developer.nvidia.com/cuda-10.0-download-archive>`_. 
 
 .. *Ensure CUDA 10.0 is installed and not CUDA 10.1. Please restart computer after CUDA installation.*
 
-`Download ParticleTrieur 2.0.20-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4cHkVmkIW82erH55g?e=pvKsDk>`_
+`Download ParticleTrieur 2.0.20-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4hpt5RbY8s0JMovAw?e=j3GwzN>`_
 
-.. Note:: What's new in 2.0.19-beta
+.. Note:: What's new in 2.0.11-beta
 
-   - Update training GUI
+   - Added export of sample counts
+   - 
+   - Bug fixes
 
-**MISO 2.0.9:**
+**MISO 2.0.13:**
 
-`Github repository for MISO 2.0.9 <https://github.com/microfossil/particle-classification>`_ 
+`Github repository for MISO 2.0.13 <https://github.com/microfossil/particle-classification>`_ 
 
 Install using ``pip install -U git+https://github.com/microfossil/particle-classification``
 
-.. Note:: What's new in 2.0.9
+.. Note:: What's new in 2.0.13
 
-   - Memory mapping for large projects
+   - Also works with tensorflow 1.13.1
+   - Only used tf.keras now
 
-This software was developed by Ross Marchant, initially as part of project led by Thibault de Garidel-Thoron, and with input from Martin Tetard. Thibault and Martin contributed significantly to the direction and testing of the of the software.
+This software was developed by Ross Marchant, as part of project led by Thibault de Garidel-Thoron, and with input from Martin Tetard. Thibault and Martin contributed significantly to the direction and testing of the of the software.
 
 .. important:: 
 
