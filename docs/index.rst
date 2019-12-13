@@ -21,12 +21,12 @@ Welcome to the help and tutorial documentation for the ParticleTrieur program an
 
 .. *Ensure CUDA 10.0 is installed and not CUDA 10.1. Please restart computer after CUDA installation.*
 
-`Download ParticleTrieur 2.0.20-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4hpt5RbY8s0JMovAw?e=j3GwzN>`_
+`Download ParticleTrieur 2.0.21-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4hpt5RbY8s0JMovAw?e=j3GwzN>`_
 
 .. Note:: What's new in 2.0.11-beta
 
    - Added export of sample counts
-   - 
+   - Save button changes to red
    - Bug fixes
 
 **MISO 2.0.13:**
