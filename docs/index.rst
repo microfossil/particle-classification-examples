@@ -13,21 +13,20 @@ Particle Classification
 
 Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library.
 
-**ParticleTrieur 2.0.21-beta**
+**ParticleTrieur 2.0.22-beta**
 
-`Download ParticleTrieur 2.0.21-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4hoKtK8_YTr4uuhxA?e=btSBpK>`_
+`Download ParticleTrieur 2.0.22-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4oalhiWZYOMt0mXWQ?e=32NtcQ>`_
 
 .. `Download ParticleTrieur-GPU 2.0.19-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4cAtVdAefCD7NHxZQ?e=8fdzdR>`_. Requires an NVIDIA graphics card and `CUDA Toolkit 10.0 <https://developer.nvidia.com/cuda-10.0-download-archive>`_. 
 
 .. *Ensure CUDA 10.0 is installed and not CUDA 10.1. Please restart computer after CUDA installation.*
 
-`Download ParticleTrieur 2.0.21-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4hpt5RbY8s0JMovAw?e=j3GwzN>`_
+`Download ParticleTrieur 2.0.22-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4h3BMHxjVlYbKGAuA?e=RBcwz1>`_
 
-.. Note:: What's new in 2.0.11-beta
+.. Note:: What's new in 2.0.22-beta
 
-   - Added export of sample counts
-   - Save button changes to red
-   - Bug fixes
+   - Server tool 
+   - Folder watch tool
 
 **MISO 2.0.13:**
 
