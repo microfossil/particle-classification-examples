@@ -1,3 +1,9 @@
+[Open tutorial in Google Colab](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_tutorial.ipynb)
+
+[Open script in Google Colab](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_quick.ipynb)
+
+[Download ParticleTrieur](https://particle-classification.readthedocs.io/en/latest/)
+
 # Image classification using the MISO library
 
 The MISO library was created to provide a simplified interface to help create, train and save convolutional neural networks (CNNs) for image classification, in particular for particle images such as foraminifera.
@@ -12,7 +18,7 @@ This repository contains some Jupyter notebooks and python scripts to demonstrat
 
 In-depth documentation covering installing software, creating a training set, configuring a network, and performing training is described [here.](https://particle-classification.readthedocs.io/en/latest/)
 
-## Google Colab
+##  Google Colab 
 
 We recommend starting by reading the documentation, but if you want to jump straight in, please follow out tutorial in Google Colab.
 
