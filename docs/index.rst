@@ -13,31 +13,33 @@ Particle Classification
 
 Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library.
 
-**ParticleTrieur 2.0.22-beta**
+**ParticleTrieur 2.1.0-beta**
 
-`Download ParticleTrieur 2.0.22-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4oalhiWZYOMt0mXWQ?e=32NtcQ>`_
+`Download ParticleTrieur 2.1.0-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fajvwdpWNeSp2kYxjJUA?e=6s5asU>`_
 
 .. `Download ParticleTrieur-GPU 2.0.19-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4cAtVdAefCD7NHxZQ?e=8fdzdR>`_. Requires an NVIDIA graphics card and `CUDA Toolkit 10.0 <https://developer.nvidia.com/cuda-10.0-download-archive>`_. 
 
 .. *Ensure CUDA 10.0 is installed and not CUDA 10.1. Please restart computer after CUDA installation.*
 
-`Download ParticleTrieur 2.0.22-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fah4h3BMHxjVlYbKGAuA?e=RBcwz1>`_
+`Download ParticleTrieur 2.1.0-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fajvw5Dfoq9QjZg2_9Bw?e=VF013y>`_
 
-.. Note:: What's new in 2.0.22-beta
+`Download ParticleTrieur 2.1.0-beta Jar <https://1drv.ms/u/s!AiQM7sVIv7faka1YHPvstlGi2WGryQ?e=tbqAwg>`_
 
-   - Server tool 
-   - Folder watch tool
+To use the Jar files, unzip the file and then in terminal run "java -jar ParticleTrieur.jar" from within the folder. You may need to install Amazon Coretto 8 first.
 
-**MISO 2.0.13:**
+.. Note:: What's new in 2.1.0-beta
 
-`Github repository for MISO 2.0.13 <https://github.com/microfossil/particle-classification>`_ 
+   - Bug fixes
+
+**MISO 2.0.19:**
+
+`Github repository for MISO 2.0.19 <https://github.com/microfossil/particle-classification>`_ 
 
 Install using ``pip install -U git+https://github.com/microfossil/particle-classification``
 
-.. Note:: What's new in 2.0.13
+.. Note:: What's new in 2.0.19
 
-   - Also works with tensorflow 1.13.1
-   - Updated classifiers to tf.keras
+   - Bug fixes
 
 This software was developed by Ross Marchant, as part of project led by Thibault de Garidel-Thoron, and with input from Martin Tetard. Thibault and Martin contributed significantly to the direction and testing of the of the software.
 
