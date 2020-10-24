@@ -11,48 +11,47 @@
 Particle Classification
 =======================
 
-Welcome to the help and tutorial documentation for the ParticleTrieur program and particle classification Tensorflow library.
+Welcome to the help and tutorial documentation for the ParticleTrieur program and the MISO CNN training Tensorflow library.
 
-**ParticleTrieur 2.1.0-beta**
 
-`Download ParticleTrieur 2.1.0-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fajvwdpWNeSp2kYxjJUA?e=6s5asU>`_
+**ParticleTrieur 2.2.0**
 
-.. `Download ParticleTrieur-GPU 2.0.19-beta for Windows <https://1drv.ms/u/s!AiQM7sVIv7fah4cAtVdAefCD7NHxZQ?e=8fdzdR>`_. Requires an NVIDIA graphics card and `CUDA Toolkit 10.0 <https://developer.nvidia.com/cuda-10.0-download-archive>`_. 
+There are some big changes to the way we deliver updates currently in progress!
 
-.. *Ensure CUDA 10.0 is installed and not CUDA 10.1. Please restart computer after CUDA installation.*
+New releases have been moved to the github repository at <https://github.com/microfossil/particle-trieur/`>
 
-`Download ParticleTrieur 2.1.0-beta for MacOS <https://1drv.ms/u/s!AiQM7sVIv7fajvw5Dfoq9QjZg2_9Bw?e=VF013y>`_
+`Download ParticleTrieur 2.2.0 for all platforms <https://github.com/microfossil/particle-trieur/releases>`_
 
-`Download ParticleTrieur 2.1.0-beta Jar <https://1drv.ms/u/s!AiQM7sVIv7faka1YHPvstlGi2WGryQ?e=tbqAwg>`_
+Currently we provide installers for macOS and Windows. 
 
-To use the Jar files, unzip the file and then in terminal run "java -jar ParticleTrieur.jar" from within the folder. You may need to install Amazon Coretto 8 first.
+Linux users please run directly from the .jar file using "java -jar ParticleTrieur.jar" from the same directory as the jar file. Java 8 is required when running from the jar file. If you do not have java 8 installed, please install Amaxon Coretto 8 or similar.
 
-.. Note:: What's new in 2.1.0-beta
+**MISO**
 
-   - Bug fixes
+MISO is the python library that ParticleTrieur calls to do convolutional neural network (CNN) training.
 
-**MISO 2.0.19:**
+It is open-source and available on github. MISO can also be installed using ParticleTrieur. Please follow the instructions for installing Anaconda and Tensorflow first
 
-`Github repository for MISO 2.0.19 <https://github.com/microfossil/particle-classification>`_ 
-
-Install using ``pip install -U git+https://github.com/microfossil/particle-classification``
-
-.. Note:: What's new in 2.0.19
-
-   - Bug fixes
-
-This software was developed by Ross Marchant, as part of project led by Thibault de Garidel-Thoron, and with input from Martin Tetard. Thibault and Martin contributed significantly to the direction and testing of the of the software.
-
-.. important:: 
-
-   We use Tensorflow version 1.14
-
-   Version 1.15 has some `critical bugs <https://github.com/tensorflow/models/issues/7640>`_ on Windows, and Version 2.0 does not have the tf.addons package built for Windows or macOS which is necessary for fast image augmentation.   
 
 Paper
 -----
 
-Download a draft of our paper `here <https://biorxiv.org/cgi/content/short/840926v1>`_
+A paper has been published on training a CNN with MISO at the `Journal of Micropalaeontology <https://jm.copernicus.org/articles/39/183/2020/>`_
+
+Please reference as:
+
+@article{jm-39-183-2020,
+   author = {Marchant, R and Tetard, M and Pratiwi, A and Adebayo, M and de Garidel-Thoron, T},
+   doi = {10.5194/jm-39-183-2020},
+   journal = {Journal of Micropalaeontology},
+   number = {2},
+   pages = {183--202},
+   title = {{Automated analysis of foraminifera fossil records by image classification using a convolutional neural network}},
+   url = {https://jm.copernicus.org/articles/39/183/2020/},
+   volume = {39},
+   year = {2020}
+}
+
 
 Overview
 --------
