@@ -18,9 +18,7 @@ Welcome to the help and tutorial documentation for the ParticleTrieur program an
 
 There are some big changes to the way we deliver updates currently in progress!
 
-New releases have been moved to the github repository at <https://github.com/microfossil/particle-trieur/`>
-
-`Download ParticleTrieur 2.2.0 for all platforms <https://github.com/microfossil/particle-trieur/releases>`_
+New releases have been moved to the `github repository <https://github.com/microfossil/particle-trieur/`>
 
 Currently we provide installers for macOS and Windows. 
 
@@ -84,6 +82,9 @@ We have created two pieces of software to enable researchers to create and use t
 A computer with a high-powered graphics card is not necessary for training the CNNs, we will use **google colab** to perform training in the cloud.
 
 :doc:`Click here to get started! <tutorial/getting_started>`
+
+
+`Download ParticleTrieur 2.2.0 for all platforms <https://github.com/microfossil/particle-trieur/releases>`_
 
 
 .. toctree::
