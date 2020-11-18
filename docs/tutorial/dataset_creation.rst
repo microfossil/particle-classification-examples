@@ -4,11 +4,11 @@ Creating a dataset
 An important note on convolutional neural networks
 --------------------------------------------------
 
-Despite the hype, convolutional neurals networks (CNNs) are not magic. They are very good pattern recognisers, during training they *learn* which image features correspond to which classes. Then once trained, they classify images according to which features are found in the image.
+Convolutional neural networks (CNNs) are are very good pattern recognisers. During training they *learn* which image features correspond to which classes. Then once trained, they classify images according to which features are found in the image.
 
 This leads to a few important observations:
 
-.. tip:: One cannot expect the CNN to accurately classify an image whose distinguishing features are *not in the training set*. 
+.. tip:: One cannot expect the CNN to accurately classify an image whose distinguishing features are *not* in the training set*.
 
 For example, the following images show the dorsal (left) and umbilical (right) views of a *N. dutertrei* foraminifera microfossil particle. If only the dorsal view is in the training set, the CNN may have difficultly classifying images of the umbilical view, as the image contains a different set of features.
 
@@ -91,7 +91,7 @@ The images used for training should cover all the variations in the class that y
    - colour
    - focus
 
-Aquiring images covering all of the permutations of these variations would be difficult and time-consuming. Fortunately, we can use other techniques to reduce this load:
+Acquiring images covering all of the permutations of these variations would be difficult and time-consuming. Fortunately, we can use other techniques to reduce this load:
 
 - **Pre-processing** can be used to remove variations, such as the size and location of the particle in the image. It is performed before training.
 - **Augmentation** is used to simulate variations in the brightness, contrast, rotation, zoom and offset of the particle in the image. It is performed duing training.
@@ -113,7 +113,7 @@ We recommend at minimum of 50 and preferably at least 200 images per class of si
 Pre-processing
 --------------
 
-Pre-processing of training images can lead to better accuracy, but it then must always be done before classifying images. This can cause a loss of accuracy where the CNN is used to classify images that have not been pre-processed. Thus, apart from having segmented images of single particles approximately filling the image, we do not recommend other processing.
+Pre-processing of training images can lead to better accuracy, but it then must always be done before classifying images. This can cause a loss of accuracy where the CNN is used to classify images that have not been pre-processed. Thus, apart from having segmented images of single particles approximately filling the image, we *do not recommend other processing*.
 
 Ideally the particles are approximately centred in the image, filling most of it except for small gap between the particle and the border, e.g.:
 

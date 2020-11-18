@@ -11,7 +11,21 @@
 Particle Classification
 =======================
 
-Welcome to the help and tutorial documentation for the ParticleTrieur program and the MISO CNN training Tensorflow library.
+Welcome to the help and tutorial documentation for the ParticleTrieur program and the MISO python library.
+
+- **MISO** is a library of python scripts that simplify training a CNN from a set of labeled images. A variety of common CNN topologies can be chosen, such as variations of ResNet or using transfer learning. The scripts take a folder of images and output a trained model along with statistics on the model performance. The system is optimised for particle images.
+
+- **ParticleTrieur** is a cross-platform java program to help organise, label, process and classify images, particularly for particle samples such as microfossils. It can be used for both the creation of the training set required to make a CNN classifier, and classification of image using a trained CNN. It also includes some image processing functions, morphology calculations and statistical graph generation. ParticleTrieur allows the user to configure and launch training using the MISO scripts
+
+
+Download
+========
+
+- MISO is open-source and is available on github at `<https://github.com/microfossil/particle-classification/`>
+
+- ParticleTrieur binaries are release on github at `<https://github.com/microfossil/particle-trieur/releases/latest`
+
+Please see the
 
 
 **ParticleTrieur 2.2.0**
@@ -72,9 +86,7 @@ Automated classification of images can improve efficiency in the laboratory, par
 
 We have created two pieces of software to enable researchers to create and use their own automatic classification system based on convolutional neural networks (CNNs):
 
-- **MISO** is a library of python scripts that simplify training a CNN from a set of labeled images. A variety of common CNN topologies can be chosen, such as variations of ResNet or using transfer learning, as well as or own CNN topology using cyclic layers. The system is optimised for particle images. 
 
-- **ParticleTrieur** is a cross-platform java program to help organise, label, process and classify images, particularly for particle samples such as microfossils. It can be used for both the creation of the training set required to make a CNN classifier, and classification of image using a trained CNN. It also includes some image processing functions, morphology calculations and statistical graph generation.
 
 .. image:: images/software/particle-trieur.png
    :width: 600px

@@ -11,6 +11,13 @@ The following tutorial gives a quick start to the typical ParticleTrieur workflo
 
 Before beginning for the first time, please read the tutorial on :doc:`../tutorial/dataset_creation` to understand what to consider when creating a training dataset.
 
+Installation
+------------
+
+1. Setup and install the miso environment :doc:`../tutorial/dataset_creation`
+
+1. Install Amazon Coretto 8 from https://aws.amazon.com/corretto/
+
 Start up
 --------
 
