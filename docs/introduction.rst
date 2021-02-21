@@ -10,17 +10,17 @@ MISO is a python library for easy training of convolutional neural networks (CNN
 
 The procedure to create a CNN using PT and MISO is:
 
-1. **Creation:** Create an dataset consisting of a wide variety of images of all the different classes you wish to identify. The images should span the range of normal variations you would expect to see in each class.
+#. **Creation:** Create an dataset consisting of a wide variety of images of all the different classes you wish to identify. The images should span the range of normal variations you would expect to see in each class.
 
-2. **Labeling:** Label the images according to their class using PT. PT can suggest labels based on the images you have already labelled.
+#. **Labeling:** Label the images according to their class using PT. PT can suggest labels based on the images you have already labelled.
 
-3. **Training:** Train a CNN using the labeled images. MISO comes with a range of CNN models to try.
+#. **Training:** Train a CNN using the labeled images. MISO comes with a range of CNN models to try.
 
-4. **Validation:** The training scripts produce graphs of the accuracy of the network, as well as estimating if any images have been mislabeled. We use these results to tweak the CNN parameters or double-check the image labeling, respectively.
+#. **Validation:** The training scripts produce graphs of the accuracy of the network, as well as estimating if any images have been mislabeled. We use these results to tweak the CNN parameters or double-check the image labeling, respectively.
 
-5. **Inference:** The final output of training is a *frozen* CNN model which can now be used for classifying unknown images. The model is loaded into PT to help train unseen images.
+#. **Inference:** The final output of training is a *frozen* CNN model which can now be used for classifying unknown images. The model is loaded into PT to help train unseen images.
 
-6. **Export:** The labeled or classified images information can be exported as a CSV for further analysis. 
+#. **Export:** The labeled or classified images information can be exported as a CSV for further analysis. 
 
 PT and MISO have many other features outside of this workflow, such as calculating particle morphology, running as server, exporting abundance counts, an so on.
 

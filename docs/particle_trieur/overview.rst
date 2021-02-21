@@ -25,12 +25,14 @@ A project consists of settings data and a list of particle metadata. The particl
 - **Filename**: The path to the image. This will be *relative to the project file* if saved on the same drive as the project file, otherwise it will be absolute. `Path (wikipedia) <https://en.wikipedia.org/wiki/Path_(computing)>`_
 - **Sample**: The name of the sample from which the image was taken.
 - **Index 1**: An index value used to sort images and generate statistics. For example, if index 1 may be set to the depth at which a foraminifera sample was taken.
-- **Index 2**: A secondary index
+- **Index 2**: A secondary index.
 - **Resolution**: The resolution of the image in pixels per millimetre.
 - **GUID:**: A globally unique identifier for the image.
-- **Classifications**: Labels and their confidence scores for this image, alond with the **id** of the classifier. When manually labelling and image there will be only a single classification with the score set to 1.0. The classification items consist of two values:
-   - **code:** The classification label code of the class
-   - **score:** The confidence score of the classification
+- **Classifications**: Labels and their confidence scores for this image, along with the **id** of the classifier. When manually labelling and image there will be only a single classification with the score set to 1.0. The classification items consist of two values:
+  
+  - **code:** The classification label code of the class.
+  - **score:** The confidence score of the classification [0-1].
+  
 - **Tags:** Tags to help sort images, see below.
 - **Validator:** The name of the person who validated the image label.
 - **Morprhology:** The calculated morphology of the particle.
