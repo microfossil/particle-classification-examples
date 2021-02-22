@@ -32,9 +32,17 @@ To run ParticleTrieur:
 
 3. Execute the jar file
 
+    Windows / Linux:
+
 ::
 
     java -jar ParticleTrieur.jar
+
+    MacOS:
+
+::
+
+    java -jar ParticleTrieur.jar -Djava.awt.headless=true
 
 
 .. note::

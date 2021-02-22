@@ -23,8 +23,8 @@ ParticleTrier is release under the open-source GPL v2 licence and the source cod
 Getting started
 ---------------
 
-- `Read <introduction>`_ the introduction on ParticleTrieur, MISO and how to create a good training set for CNN models.
-- `Install <installation>`_ ParticleTrieur and MISO
+- :doc:`Read <introduction>` the introduction on ParticleTrieur, MISO and how to create a good training set for CNN models.
+- :doc:`Install <installation>` ParticleTrieur and MISO
 
 
 Citing
