@@ -18,8 +18,8 @@ ParticleTrieur is distributed as a Java JAR file. It requires the installation o
     OpenJDK Runtime Environment Corretto-8.212.04.2 (build 1.8.0_212-b04)
     OpenJDK 64-Bit Server VM Corretto-8.212.04.2 (build 25.212-b04, mixed mode)
 
-2. Download the latest release of ParticleTrier.jar from the `github repostory releases page <https://github.com/microfossil/particle-trieur/releases>`_
-3. Save the JAR file in a convient location
+3. Download the latest release of ParticleTrier.jar from the `github repostory releases page <https://github.com/microfossil/particle-trieur/releases>`_
+4. Save the JAR file in a convient location
 
 To run ParticleTrieur:
 
@@ -32,13 +32,13 @@ To run ParticleTrieur:
 
 3. Execute the jar file
 
-    Windows / Linux:
+Windows / Linux:
 
 ::
 
     java -jar ParticleTrieur.jar
 
-    MacOS:
+MacOS:
 
 ::
 
