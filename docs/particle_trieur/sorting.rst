@@ -106,3 +106,5 @@ Enter a combination of fields to filter the list, for example:
 .. important::
 
    Values with spaces in them need to be replaced with underscores '_'. For example, if you wish to filter for images with label *fragment round* then the filter would be ``label==fragment_round``
+
+.. image:: /images/pt/filter.png

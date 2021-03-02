@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca3aebb-5bf1-4c5f-ab17-b03d22e90a30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/installation/installation.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/installation/installation.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
       <workItem from="1566168927907" duration="5000" />
       <workItem from="1605689544624" duration="2972000" />
       <workItem from="1613870880122" duration="3423000" />
+      <workItem from="1613984453741" duration="20000" />
     </task>
     <servers />
   </component>
