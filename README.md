@@ -1,4 +1,4 @@
-[Open tutorial in Google Colab](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_tutorial.ipynb)
+[Open tutorial in Google Colab (OUT OF DATE)](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_tutorial.ipynb)
 
 [Open script in Google Colab](https://colab.research.google.com/github/microfossil/particle-classification-examples/blob/master/image_classification_with_miso_quick.ipynb)
 
