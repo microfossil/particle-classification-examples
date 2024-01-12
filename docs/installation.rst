@@ -51,15 +51,15 @@ The MISO library is required to perform CNN training using ParticleTrieur but ca
 
 ::
 
-    conda create -n miso2 python=3.9
+    conda create -n miso python=3.9
 
-4. Activate the *miso2* environment:
+4. Activate the *miso* environment:
 
 ::
 
-    conda activate miso2
+    conda activate miso
 
-5. Install Tensorflow v2.10.
+5. Install Tensorflow v2.10.1
 
 ::
 
@@ -70,7 +70,7 @@ The MISO library is required to perform CNN training using ParticleTrieur but ca
 
 ::
 
-    pip install miso2
+    pip install miso
 
 Setup is complete!
 
